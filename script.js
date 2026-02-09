@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
 
-    const words = ["Student", "Learner", "Linux Enthusiast", "Developer", "Techie", "Problem Solver", "Innovator", "Creative Thinker", "Team Player", "Passionate Coder"];
+    const words = ["Student", "Learner", "Team Player", "Linux Enthusiast", "Developer", "Persistent", "Problem Solver", "Curious", "Creative Thinker", "Passionate Coder"];
     let index = 0;
 
     const textElement = document.getElementById("dynamic-text");
