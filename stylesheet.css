@@ -23,9 +23,10 @@ background: linear-gradient(120deg, #0b0f1a, #0a1f2f, #083a3d);
     justify-content: space-between;
     align-items: center;
 
-    padding: 20px 40px;
-    margin: 20px;
-
+    padding: 10px;
+    margin: 5px;
+    position: sticky;
+    top: 0;
     border-radius: 20px;
 
     background: rgba(255, 255, 255, 0.05);
@@ -35,26 +36,26 @@ background: linear-gradient(120deg, #0b0f1a, #0a1f2f, #083a3d);
 }
 
 #projects {
-  scroll-margin-top: 80px; /* navbar height */
+  scroll-margin-top: 80px; 
   text-align: center;
   color: rgb(247, 245, 248);
 }
+.nav-link{
+ display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
 
-.nav-link {
-    display: inline-block;
-    cursor: pointer;
+  color: rgba(255,255,255,0.88);
+  font-weight: 600;
+  font-size: 15px;
 
-    text-decoration: none;
-    color: white;
-    font-weight: 500;
+  padding: 10px 16px;
+  border-radius: 999px;
 
-    padding: 8px 18px;
-    white-space: nowrap;
-    border-radius: 30px;
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.10);
 
-    background: linear-gradient(135deg, #00c6ff, #0072ff);
-
-    transition: all 0.3s ease;
+  transition: transform 180ms ease, background 180ms ease, border 180ms ease
 }
 
 .nav-link:hover {
