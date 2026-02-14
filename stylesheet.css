@@ -3,17 +3,20 @@ html {
 }
 
 body {
-background: linear-gradient(120deg, #0b0f1a, #0a1f2f, #083a3d);
-  
+ background: linear-gradient(
+    180deg,
+    #0A0A0A 0%,
+    #121212 100%
+  );  
 }
 #dynamic-text{
     margin-left: 10px;
-    color: #00d9ff;
+    color: #A78BFA;
     transition: opacity 0.6s ease;
 }
 #dynamic-text{
     margin-left: 10px;
-    color: #00d9ff;
+    color: #A78BFA;
     text-shadow: 0 0 8px rgba(0,217,255,0.6);
     transition: opacity 0.6s ease;
 }
@@ -335,7 +338,7 @@ background: linear-gradient(90deg, #6a7cff, #2ecbff);
 
 .project-card:hover {
     transform: translateY(-8px);
-        box-shadow: 0 0 20px #00d9ff;
+    box-shadow: 0 0 20px #3B82F6;
 
 }
 
@@ -356,7 +359,7 @@ background: linear-gradient(90deg, #6a7cff, #2ecbff);
 
 .project-text a {
     text-decoration: none;
-    color: #00d9ff;
+    color: #3B82F6;
     font-weight: bold;
 }
 .project-text a:hover {
@@ -451,6 +454,6 @@ background: linear-gradient(90deg, #6a7cff, #2ecbff);
 }
 
 .footer p:hover{
-    color: #00d9ff;
+    color: #A78BFA;
 }
 
